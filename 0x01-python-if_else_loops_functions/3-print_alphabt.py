@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-while letter in "abcdefghijklmnopqrstuvwxyz" != "eq":
-    print("{}".format(letter), end='')
+for letter in "abcdefghijklmnopqrstuvwxyz":
+    if letter != "e" and letter != "q":
+        print("{}".format(letter), end='')
