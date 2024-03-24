@@ -2,4 +2,4 @@
 def uppercase(str):
     for letter in str:
         up_str = up_str + chr(ord(letter)-32)
-    print(up_str)
+    print("{}".format(up_str))
